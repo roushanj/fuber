@@ -14,6 +14,7 @@ func main() {
 	r.Use(gin.Recovery())
 
 	r.POST("/cabrequest", C.RequestRide)
+	r.GET("/confirmride", C.ConfirmRequest)
 
 	r.Run(":8080")
 
