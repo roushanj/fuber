@@ -14,8 +14,10 @@ type CostDetail struct {
 	ID        int     `json:"id"`
 	UserID    int     `json:"uid"`
 	CabID     int     `json:"cid"`
+	Lat       float64 `json:"lat"`
+	Long      float64 `json:"long"`
 	Distance  float64 `json:"distance"`
-	TripTime  float64 `json:"triptime"`
+	TripTime  int     `json:"triptime"`
 	FinalCost float64 `json:"tripcost"`
 }
 

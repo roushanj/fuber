@@ -15,6 +15,7 @@ func main() {
 
 	r.POST("/cabrequest", C.RequestRide)
 	r.GET("/confirmride", C.ConfirmRequest)
+	r.POST("/endride", C.EndTrip)
 
 	r.Run(":8080")
 
