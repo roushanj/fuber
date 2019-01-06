@@ -20,4 +20,4 @@ Fuber is RestApi it can be used to book cab.
 # Testing :-
   
   1. You can test api using Swagger or Postman.
-  2. Change Value in main_test.go and run go test command
+  2. Or you can always Change Value in main_test.go and run go test command
